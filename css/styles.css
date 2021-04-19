@@ -85,6 +85,18 @@ div.container-introduzione a:hover{
 }
 
 .card-p {
-    padding: 4rem;
+    margin: 2rem 2rem;
+}
+
+/* Footer */
+
+.footer {
+    background-color:  #141416;
+    margin-top: 5rem;
+    color: white;
+}
+
+.inner-footer {
+    padding: 5rem 0;
 }
 
