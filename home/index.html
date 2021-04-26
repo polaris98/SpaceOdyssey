@@ -21,7 +21,7 @@
       integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/home.css" />
 
     <!-- Font Awesome -->
     <script
@@ -37,143 +37,147 @@
     ></script>
   </head>
   <body>
-    <section class="colored-section" id="title">
-      <!-- Navbar -->
+    <!-- Video -->
+    <video playsinline autoplay muted loop>
+      <source src="../img/StarsBackground.mp4" type="video/mp4" />
+    </video>
 
-      <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
-        <a class="navbar-brand" href="">Space Odyssey</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" id="home-active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Esplora</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pubblicazioni</a>
-            </li>
-            <li class="nav-item">
-              <a
-                href="#"
-                class="btn btn-outline-light"
-                tabindex="-1"
-                role="button"
-                aria-disabled="true"
-                >Accedi</a
-              >
-            </li>
-          </ul>
+    <div class="viewport-header">
+      <section class="colored-section" id="title">
+        <!-- Navbar -->
+        <nav class="navbar fixed-top navbar-dark bg-dark navbar-expand-lg">
+          <a class="navbar-brand" href="">Space Odyssey</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" id="home-active" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Esplora</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pubblicazioni</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="btn btn-outline-light"
+                  tabindex="-1"
+                  role="button"
+                  aria-disabled="true"
+                  >Accedi</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Introduzione -->
+        <div class="container-introduzione">
+          <h1 class="title">
+            Scopri il <br />
+            Sistema Solare.
+          </h1>
+          <div class="container-descrizione">
+            <h4>
+              Immergiti tra gli incredibili corpi <br />
+              celesti della nostra galassia.
+            </h4>
+          </div>
+          <a class="btn btn-primary btn-lg" href="#" role="button"> Altro </a>
         </div>
-      </nav>
+      </section>
 
-      <!-- Introduzione -->
-
-      <div class="container-introduzione">
-        <h1 class="title">
-          Scopri il <br />
-          Sistema Solare.
-        </h1>
-        <div class="container-descrizione">
-          <h4>
-            Immergiti tra gli incredibili corpi <br />
-            celesti della nostra galassia.
-          </h4>
-        </div>
-        <a class="btn btn-primary btn-lg" href="#" role="button"> Altro </a>
-      </div>
-    </section>
-
-    <!-- Intro Pubblicazioni -->
-
-    <section class="white-section" id="features">
-      <div class="card text-white bg-dark mb-3 card-pubblicazioni">
-        <div class="card-body">
-          <div class="row">
-            <div class="col-lg-4 container-pubblicazioni">
-              <h3>
-                Rimani aggiornato <br />
-                sulle ultime scoperte <br />
-                scientifiche
-              </h3>
-              <a class="btn btn-primary btn-lg" href="#" role="button">
-                Altro
-              </a>
-            </div>
-            <div class="col-lg-8">
-              <div class="row row-cols-2">
-                <div class="col">
-                  <div class="card card-p">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Card subtitle
-                      </h6>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+      <!-- Intro Pubblicazioni -->
+      <section class="white-section" id="features">
+        <div class="card text-white bg-dark mb-3 card-pubblicazioni">
+          <div class="card-body">
+            <div class="row">
+              <div class="col-lg-4 container-pubblicazioni">
+                <h3>
+                  Rimani aggiornato <br />
+                  sulle ultime scoperte <br />
+                  scientifiche
+                </h3>
+                <a class="btn btn-primary btn-lg" href="#" role="button">
+                  Altro
+                </a>
+              </div>
+              <div class="col-lg-8">
+                <div class="row row-cols-2">
+                  <div class="col">
+                    <div class="card card-p">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card card-p">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Card subtitle
-                      </h6>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                  <div class="col">
+                    <div class="card card-p">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card card-p">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Card subtitle
-                      </h6>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                  <div class="col">
+                    <div class="card card-p">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
                     </div>
                   </div>
-                </div>
-                <div class="col">
-                  <div class="card card-p">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <h6 class="card-subtitle mb-2 text-muted">
-                        Card subtitle
-                      </h6>
-                      <p class="card-text">
-                        Some quick example text to build on the card title and
-                        make up the bulk of the card's content.
-                      </p>
-                      <a href="#" class="card-link">Card link</a>
-                      <a href="#" class="card-link">Another link</a>
+                  <div class="col">
+                    <div class="card card-p">
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">
+                          Card subtitle
+                        </h6>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and
+                          make up the bulk of the card's content.
+                        </p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -181,33 +185,33 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- Footer -->
-    <section>
-      <div class="container-fluid footer">
-        <div class="row inner-footer">
-          <div class="col-md-4">
-            Space Odyssey <br />
-            123-456-666-69 <br />
-            info@mysite.com <br />
-            Roma <br />
-            Università La Sapienza
-          </div>
-          <div class="col-md-4">
-            Home <br />
-            Esplora <br />
-            Pubblicazioni
-          </div>
-          <div class="col-md-4">
-            Seguici su:<br />
-            Facebook <br />
-            Instagram <br />
-            Twitter <br />
+      <!-- Footer -->
+      <section>
+        <div class="container-fluid footer">
+          <div class="row inner-footer">
+            <div class="col-md-4">
+              Space Odyssey <br />
+              123-456-666-69 <br />
+              info@mysite.com <br />
+              Roma <br />
+              Università La Sapienza
+            </div>
+            <div class="col-md-4">
+              Home <br />
+              Esplora <br />
+              Pubblicazioni
+            </div>
+            <div class="col-md-4">
+              Seguici su:<br />
+              Facebook <br />
+              Instagram <br />
+              Twitter <br />
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </div>
   </body>
 </html>
