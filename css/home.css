@@ -1,0 +1,120 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+/* Video */
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.viewport-header {
+  position: relative;
+  height: 100vh;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1rem 2rem 1rem;
+}
+
+.bg-dark {
+  background-color: #141416 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+ul.navbar-nav a:hover,
+ul.navbar-nav a:focus,
+ul.navbar-nav a:active {
+  color: #fd6262 !important;
+  transition-duration: 0.5s;
+}
+
+#home-active {
+  color: #fd6262;
+}
+
+/* Introduzione */
+
+.container-introduzione {
+  text-align: left;
+  margin: 9rem 2rem 3rem;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+.container-descrizione {
+  margin-top: 1rem;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.btn-primary {
+  background-color: #fd6262;
+  border-color: #fd6262;
+  color: #141416;
+  width: 7rem;
+  height: 2.5rem;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  margin-top: 1rem;
+}
+
+div.container-introduzione a:hover {
+  background-color: #141416 !important;
+  border-color: #141416 !important;
+  color: #fd6262 !important;
+}
+
+/* Intro pubblicazioni */
+
+.card-pubblicazioni {
+  margin: 0 2rem;
+  background-color: #141416;
+}
+
+.container-pubblicazioni {
+  text-align: left;
+  padding: 2rem;
+  margin: auto;
+}
+
+.card-p {
+  margin: 2rem 2rem;
+}
+
+/* Footer */
+
+.footer {
+  background-color: #141416;
+  margin-top: 5rem;
+  color: white;
+}
+
+.inner-footer {
+  padding: 5rem 0;
+}

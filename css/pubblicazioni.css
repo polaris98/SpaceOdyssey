@@ -1,6 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
   text-align: center;
+  background-image: url("../img/background.jpg");
+  background-attachment: fixed;
 }
 
 /* Navigation Bar */
@@ -63,6 +65,7 @@ div.container-introduzione button:hover {
 
 .title {
   font-size: 3.5rem;
+  color: white;
 }
 
 .dropdown-toggle{
