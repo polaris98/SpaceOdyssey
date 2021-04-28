@@ -62,7 +62,7 @@ ul.navbar-nav a:active {
   text-align: left;
   margin: 9rem 2rem 3rem;
   font-family: "Poppins", sans-serif;
-  color: white;
+  color:#141416;
 }
 
 .container-descrizione {
@@ -86,7 +86,7 @@ ul.navbar-nav a:active {
 
 div.container-introduzione a:hover {
   background-color: #141416 !important;
-  border-color: #141416 !important;
+  border-color: #fd6262 !important;
   color: #fd6262 !important;
 }
 
@@ -101,6 +101,12 @@ div.container-introduzione a:hover {
   text-align: left;
   padding: 2rem;
   margin: auto;
+}
+
+div.container-pubblicazioni a:hover {
+  background-color: #141416 !important;
+  border-color: #fd6262 !important;
+  color: #fd6262 !important;
 }
 
 .card-p {
