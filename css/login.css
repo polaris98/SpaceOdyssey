@@ -1,0 +1,83 @@
+body {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  background: url("../img/background2.jpg") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* Left side */
+
+.image-container {
+  
+}
+
+.title {
+  line-height: 100vh;
+  color: white;
+  font-size: 2.5rem;
+}
+
+/* Right side */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, .15);  
+  backdrop-filter: blur(5px);
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-box h4 {
+  font-weight: bold;
+  color: #fff;
+}
+
+.form-div {
+  text-align: left;
+}
+
+label {
+  color: white;
+}
+
+input, select {
+  background-color: rgba(0, 0, 0, .15) !important;
+  color: #fff !important;
+}
+
+.btn-primary {
+  background-color: #fd6262;
+  border-color: #fd6262;
+  color: #141416;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  background-color: #141416 !important;
+  border-color: #fd6262 !important;
+  color: #fd6262 !important;
+}
+
+p {
+  color: grey;
+  text-align: right;
+}
+
+p > a {
+  color: #fd6262;
+}
+
+p > a:hover {
+  color: firebrick;
+}
+
+a:hover {
+  text-decoration: none;
+}

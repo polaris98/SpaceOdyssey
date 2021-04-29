@@ -1,0 +1,111 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Home</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/login.css" />
+
+    <!-- Font Awesome -->
+    <script
+      defer
+      src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"
+    ></script>
+
+    <!-- Bootstrap Scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col d-none d-md-block image-container">
+          <a class="title" href="../home/index.html"> Space Odyssey </a>
+        </div>
+
+        <div class="col form-container">
+          <div
+            class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+          >
+            <div class="logo mb-3">
+              <img src="../img/test.jpg" width="150px" />
+            </div>
+            <div class="heading mb-4">
+              <h4>Crea il tuo account</h4>
+            </div>
+            <form>
+              <div class="form-row form-div">
+                <div class="form-group col">
+                  <label for="inputUsername">Username</label>
+                  <input type="text" class="form-control" id="inputUsername" />
+                </div>
+                <div class="form-group col">
+                  <label for="inputEmail">Email</label>
+                  <input type="email" class="form-control" id="inputEmail" />
+                </div>
+              </div>
+
+              <div class="form-row form-div">
+                <div class="form-group col">
+                  <label for="inputPw">Inserisci password</label>
+                  <input type="password" class="form-control" id="inputPw" />
+                </div>
+                <div class="form-group col">
+                  <label for="inputCPw">Conferma password</label>
+                  <input type="password" class="form-control" id="inputCPw" />
+                </div>
+              </div>
+
+              <div class="form-group form-div">
+                <label for="selectPlanet">Scegli il tuo pianeta</label>
+                <select class="custom-select" id="selectPlanet">
+                  <option value="0" selected>Mercurio</option>
+                  <option value="1">Venere</option>
+                  <option value="2">Terra</option>
+                  <option value="3">Marte</option>
+                  <option value="4">Giove</option>
+                  <option value="5">Saturno</option>
+                  <option value="6">Urano</option>
+                  <option value="7">Nettuno</option>
+                </select>
+              </div>
+
+              <button class="btn btn-primary btn-block" type="submit">Inizia il tuo viaggio</button>
+            </form>
+            <p>Possiedi già un account? <a href="">Fai il login</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
