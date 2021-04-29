@@ -12,6 +12,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  filter: brightness(200%);
 }
 
 .viewport-header {
@@ -62,7 +63,7 @@ ul.navbar-nav a:active {
   text-align: left;
   margin: 9rem 2rem 3rem;
   font-family: "Poppins", sans-serif;
-  color:#141416;
+  color:white;
 }
 
 .container-descrizione {
