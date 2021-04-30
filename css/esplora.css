@@ -1,0 +1,64 @@
+@import url(animazione.css);
+
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-attachment: fixed;
+  }
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 1rem 2rem 1rem;
+  }
+
+.bg-dark {
+    background-color: #141416 !important;
+}
+  
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+.nav-item {
+    padding: 0 18px;
+  }
+  
+.nav-link {
+    font-size: 1rem;
+  }
+
+ul.navbar-nav a:hover,
+ul.navbar-nav a:focus,
+ul.navbar-nav a:active {
+    color: #FD6262 !important;
+    transition-duration: 0.5s;
+}
+
+#esplora-active {
+    color: #FD6262;
+}
+
+
+.card{
+  margin: 25% 10%;
+  height: 60%;
+  background-color: rgba(255, 255, 255, .15);  
+  backdrop-filter: blur(2px);
+  border-radius: 3%; 
+}
+
+.card-title{
+  color: #FD6262;
+  font-size: 2rem;
+}
+
+.card-text{
+  font-size: 1rem;
+}
+
+
+.row{
+  height: 100%;
+}
