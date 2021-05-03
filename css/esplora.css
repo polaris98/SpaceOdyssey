@@ -54,37 +54,50 @@ video {
 h4 {
   font-size: 4rem;
   margin-bottom: 2rem;
-  color: #889CE7;
+  color: #889ce7;
 }
 
 .card-pubblicazioni {
   margin: 0 2rem 4rem !important;
   padding: 1rem 0rem 0rem 3rem;
-  background: linear-gradient(to right,rgba(28,28,30,1) 30%,rgba(255,255,255,0) 100%);
+  background: linear-gradient(
+    to right,
+    rgba(28, 28, 30, 1) 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
 }
 
 .sole img {
-  width: 82%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.pianeti img{
-  width: 80%;
-  margin-left: 1rem;
+.pianeti img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.plutone img{
-  width: 90%;
+.plutone img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.luna img{
-  width: 75%;
-  margin-left: 3rem;
+.luna img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
-.asteroide img{
-  width:90%;
+.asteroide img {
+  max-width: 100%;
+  max-height: 100%;
 }
-p{
+
+.cometa img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+p {
   text-align: justify;
   margin: 3rem 2rem 1rem 0rem;
 }
@@ -100,4 +113,3 @@ p{
   border-color: #fd6262 !important;
   color: #fd6262 !important;
 }
-
