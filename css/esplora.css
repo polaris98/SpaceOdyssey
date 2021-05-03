@@ -41,74 +41,48 @@ ul.navbar-nav a:active {
 /* Esplora */
 
 .categorie {
-  margin-top: 10rem;
   text-align: left;
 }
 
 h4 {
   font-size: 4rem;
-  margin: 3rem 0 3rem 3rem;
+  margin-bottom: 2rem;
+  color: #889CE7;
 }
 
 .card-pubblicazioni {
   margin: 0 2rem 4rem !important;
-  background-color: #141416;
+  padding: 1rem 0rem 0rem 3rem;
+  background: linear-gradient(to right,rgba(20,20,22,1) 30%,rgba(255,255,255,0) 100%);
 }
 
-.sole {
-  background-image: url("../img/sol.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.sole img {
+  width: 82%;
 }
 
-.pianeti {
-  background-image: url("../img/terra.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.pianeti img{
+  width: 80%;
+  margin-left: 1rem;
 }
 
-.plutone {
-  background-image: url("../img/plutone.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.plutone img{
+  width: 90%;
 }
 
-.luna {
-  background-image: url("../img/luna.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.luna img{
+  width: 75%;
+  margin-left: 3rem;
 }
 
-.asteroide {
-  background-image: url("../img/asteroid.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.asteroide img{
+  width:90%;
 }
-
-.cometa {
-  background-image: url("../img/cometa.png");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-p {
-  margin: 0rem 0 3rem 3rem;
+p{
+  text-align: justify;
+  margin: 3rem 2rem 1rem 0rem;
 }
 
 .scopri {
-  margin-left: 3rem;
   background-color: #fd6262;
   border-color: #fd6262;
   color: #141416;
@@ -118,4 +92,9 @@ p {
   background-color: #141416 !important;
   border-color: #fd6262 !important;
   color: #fd6262 !important;
+}
+
+video {
+  width: 100%;
+  height: auto;
 }
