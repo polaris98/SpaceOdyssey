@@ -1,83 +1,16 @@
 body {
-  font-family: "Poppins", sans-serif;
-  text-align: center;
   background-image: url("../img/background.jpg");
   background-attachment: fixed;
 }
 
-/* Navigation Bar */
-
-.navbar {
-  padding: 1rem 2rem 1rem;
-}
-
-.bg-dark {
-  background-color: #141416 !important;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1rem;
-}
-
-ul.navbar-nav button:hover,
-ul.navbar-nav button:focus,
-ul.navbar-nav button:active {
-  color: #fd6262 !important;
-  transition-duration: 0.5s;
-  box-shadow: none;
-}
-
-#pubblicazioni-active {
-  color: #fd6262;
-}
-
-/* Login */
-
-form {
-  text-align: left;
-}
-
-#submit {
-  background-color: #fd6262;
-  border-color: #fd6262;
-  color: #141416;
-}
-
-#submit:hover,
-#submit:focus,
-#submit:active {
-  color: #fd6262 !important;
-  transition-duration: 0.5s;
-  box-shadow: none;
-  background-color: white;
-}
-
-form > p {
-  color: grey;
-  text-align: right;
-  margin-top: 1rem;
-}
-
-form > p > a {
-  color: #fd6262;
-}
-
-form > p > a:hover {
-  color: firebrick;
-}
-
 /* Introduzione */
 
-.btn-primary {
+.container-introduzione {
+  text-align: left;
+  margin: 9rem 2rem 3rem;
+}
+
+.form-inline button {
   background-color: #fd6262;
   border-color: #fd6262;
   color: #141416;
@@ -86,14 +19,9 @@ form > p > a:hover {
   font-size: 1rem;
 }
 
-.container-introduzione {
-  text-align: left;
-  margin: 9rem 2rem 3rem;
-}
-
-div.container-introduzione button:hover {
+.form-inline button:hover {
   background-color: #141416 !important;
-  border-color: #141416 !important;
+  border-color: #fd6262 !important;
   color: #fd6262 !important;
 }
 
@@ -102,33 +30,30 @@ div.container-introduzione button:hover {
   color: white;
 }
 
-.dropdown-toggle{
-    width: 100%;
+.dropdown-toggle {
+  width: 100%;
 }
 
-.form-inline{
-    margin-left: 2rem;
+.form-inline {
+  margin-left: 2rem;
 }
 
 /* Pubblicazioni */
 
-.card-deck{
+.card-deck {
   margin: 2rem 1rem;
 }
 
 .card {
-    background-color: #3F4349;
+  background-color: #3f4349;
 }
 
-.card-title{
-    color: #fd6262;
-    vertical-align: center;
+.card-title {
+  color: #fd6262;
+  vertical-align: center;
 }
 
-.card-text{
-    color: #889CE7;
-}
-
-.card-header{
-    color: #889CE7;
+.card-text {
+  text-align: justify;
+  color: #889ce7;
 }

@@ -22,6 +22,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="../css/pubblicazioni.css" />
+    <link rel="stylesheet" href="../css/common.css" />
 
     <!-- Font Awesome -->
     <script
@@ -65,13 +66,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="../home/index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../esplora/index.html">Esplora</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../pubblicazioni/index.html"
+            <a class="nav-link" id="active" href="#"
               >Pubblicazioni</a
             >
           </li>
@@ -93,42 +94,44 @@
 
     <!-- Login -->
     <div
-      class="modal fade"
-      id="login"
-      tabindex="-1"
-      aria-labelledby="modalLogin"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalLogin">Accedi al tuo account</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
+    class="modal fade"
+    id="login"
+    tabindex="-1"
+    aria-labelledby="modalLogin"
+    aria-hidden="true"
+  >
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLogin">Accedi al tuo account</h5>
+          <button
+            type="button"
+            class="close"
+            data-dismiss="modal"
+            aria-label="Close"
+          >
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form id="login-form">
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="email" class="form-control" id="username" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <button id="submit" type="submit" class="btn btn-block">
+              Log in
             </button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="username">Username</label>
-                <input type="email" class="form-control" id="username">
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password">
-              </div>
-              <button id="submit" type="submit" class="btn btn-block">Log in</button>
-              <p>Non hai un account? <a href="">Registrati ora</a></p>
-            </form>
-          </div>
+            <p>Non hai un account? <a href="../registrazione/index.html">Registrati ora</a></p>
+          </form>
         </div>
       </div>
     </div>
+  </div>
 
     <!-- Introduzione -->
 

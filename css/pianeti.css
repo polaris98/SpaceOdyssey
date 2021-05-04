@@ -1,40 +1,5 @@
 body {
-  font-family: "Poppins", sans-serif;
   background-image: url("../img/background.jpg");
-}
-
-/* Navigation Bar */
-
-.navbar {
-  padding: 1rem 2rem 1rem;
-}
-
-.bg-dark {
-  background-color: #141416 !important;
-}
-
-.navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-item {
-  padding: 0 18px;
-}
-
-.nav-link {
-  font-size: 1rem;
-}
-
-ul.navbar-nav a:hover,
-ul.navbar-nav a:focus,
-ul.navbar-nav a:active {
-  color: #fd6262 !important;
-  transition-duration: 0.5s;
-}
-
-#esplora-active {
-  color: #fd6262;
 }
 
 /* Pianeti */
