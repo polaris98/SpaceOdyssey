@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url("../img/background.jpg");
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 1rem 2rem 1rem;
+}
+
+.bg-dark {
+  background-color: #141416 !important;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1rem;
+}
+
+ul.navbar-nav a:hover,
+ul.navbar-nav a:focus,
+ul.navbar-nav a:active {
+  color: #fd6262 !important;
+  transition-duration: 0.5s;
+}
+
+#esplora-active {
+  color: #fd6262;
+}
+
+/* Pianeti */
+
+.category-description {
+  margin: 9rem 3rem 0rem 3rem;
+  color: white;
+  text-align: justify;
+}
+
+.title {
+  font-size: 4rem;
+  color: #fd6262;
+}
+
+.title hr {
+  border: 1px solid #fd6262;
+}
+
+.undercategory-description {
+  margin: 4rem 8rem 4rem 3rem;
+  color: white;
+  text-align: justify;
+}
+
+.undercategory-title {
+  color: #889ce7;
+  font-size: 3rem;
+}
+
+.undercategory-title hr {
+  border: 1px solid #889ce7;
+}
+
+h4 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #889ce7;
+}
+
+.planet-card {
+  margin: 0 3rem !important;
+  padding: 1rem 0rem 0rem 3rem;
+  background: linear-gradient(
+    to right,
+    rgba(28, 28, 30, 1) 30%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+img {
+  width: 82%;
+}
+
+.scopri {
+  background-color: #fd6262;
+  border-color: #fd6262;
+  color: #141416;
+}
+
+.scopri:hover {
+  background-color: #141416 !important;
+  border-color: #fd6262 !important;
+  color: #fd6262 !important;
+}
+
+/* Pubblicazioni */
+
+.card-deck{
+  margin: 1rem 2rem 4rem;
+}
+
+.card-deck .card {
+    background-color: #3F4349;
+}
+
+.card-deck .card-title{
+    color: #fd6262;
+    vertical-align: center;
+}
+
+.card-deck .card-text{
+    color: #889CE7;
+}
+
+.card-deck .card-header{
+    color: #889CE7;
+}
