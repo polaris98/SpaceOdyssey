@@ -75,12 +75,15 @@ div.container-introduzione button:hover {
 .form-inline{
     margin-left: 2rem;
 }
+
 /* Pubblicazioni */
 
-.card-p {
-    margin: 1rem 1rem;
+.card-deck{
+  margin: 2rem 1rem;
+}
+
+.card {
     background-color: #3F4349;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-title{
