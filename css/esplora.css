@@ -26,15 +26,51 @@ body {
   font-size: 1rem;
 }
 
-ul.navbar-nav a:hover,
-ul.navbar-nav a:focus,
-ul.navbar-nav a:active {
+ul.navbar-nav button:hover,
+ul.navbar-nav button:focus,
+ul.navbar-nav button:active {
   color: #fd6262 !important;
   transition-duration: 0.5s;
+  box-shadow: none;
 }
 
 #esplora-active {
   color: #fd6262;
+}
+
+/* Login */
+
+form {
+  text-align: left;
+}
+
+#submit {
+  background-color: #fd6262;
+  border-color: #fd6262;
+  color: #141416;
+}
+
+#submit:hover,
+#submit:focus,
+#submit:active {
+  color: #fd6262 !important;
+  transition-duration: 0.5s;
+  box-shadow: none;
+  background-color: white;
+}
+
+form > p {
+  color: grey;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+form > p > a {
+  color: #fd6262;
+}
+
+form > p > a:hover {
+  color: firebrick;
 }
 
 /* Video */
@@ -87,6 +123,7 @@ h4 {
 .asteroide img {
   width: 90%;
 }
+
 p {
   text-align: justify;
   margin: 3rem 2rem 1rem 0rem;
