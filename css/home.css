@@ -21,9 +21,9 @@ video {
 /* Introduzione */
 
 .container-introduzione {
-  text-align: left;
-  margin: 9rem 2rem 3rem;
-  color: white;
+  text-align: left !important;
+  margin: 9rem 2rem 3rem !important;
+  color: white !important;
 }
 
 .container-descrizione {
@@ -32,23 +32,21 @@ video {
 
 .title {
   font-size: 4rem;
+  color: white !important;
 }
 
 /* Intro pubblicazioni */
 
 .card-pubblicazioni {
-  margin: 0 2rem;
+  margin: 1rem 2rem;
   background-color: #141416;
+  padding: 3rem 1rem 0rem 2rem;
 }
 
 .container-pubblicazioni {
   text-align: left;
   padding: 2rem;
   margin: auto;
-}
-
-.card-p {
-  margin: 2rem 2rem;
 }
 
 /* Bottone Altro */

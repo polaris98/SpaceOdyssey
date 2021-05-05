@@ -27,7 +27,7 @@ body {
 
 .title {
   font-size: 3.5rem;
-  color: white;
+  color: white !important;
 }
 
 .dropdown-toggle {
@@ -56,4 +56,11 @@ body {
 .card-text {
   text-align: justify;
   color: #889ce7;
+}
+
+/* Modale */
+
+.modal-dialog{
+  width:100%;
+  margin: 10rem 20rem ;
 }
