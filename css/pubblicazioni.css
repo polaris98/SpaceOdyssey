@@ -57,10 +57,3 @@ body {
   text-align: justify;
   color: #889ce7;
 }
-
-/* Modale */
-
-.modal-dialog{
-  width:100%;
-  margin: 10rem 20rem ;
-}

@@ -1,0 +1,48 @@
+body {
+  background-image: url(../img/background.jpg);
+}
+
+.page {
+  margin: 7rem 10rem;
+  text-align: left;
+}
+
+.pub-category {
+  margin: 0rem 0rem 1rem 1rem;
+  padding: 0.5rem 0.5rem;
+  width: fit-content;
+  color: white;
+  background-color: #fd6262;
+  border-radius: 0.2rem;
+}
+
+.card {
+  background-color: #222327;
+}
+
+h1 {
+  color: #fd6262;
+  margin-top: 1rem;
+}
+
+h4 {
+  color: #889ce7;
+}
+
+.articolo img {
+  width: 100%;
+  height: auto;
+}
+
+.author-info {
+  text-align: center;
+}
+
+.author-info img {
+  width: 30%;
+}
+
+.author-name {
+  size: 0.5rem;
+  color: gray;
+}

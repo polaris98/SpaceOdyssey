@@ -1,6 +1,6 @@
 /* Video */
 
-video {
+.background-video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -38,7 +38,7 @@ video {
 /* Intro pubblicazioni */
 
 .card-pubblicazioni {
-  margin: 1rem 2rem;
+  margin: 6rem 2rem;
   background-color: #141416;
   padding: 3rem 1rem 0rem 2rem;
 }
@@ -47,6 +47,24 @@ video {
   text-align: left;
   padding: 2rem;
   margin: auto;
+}
+
+/* About us */
+
+.about-us {
+  margin: 6rem 2rem;
+  background-color: #141416;
+  padding: 5rem;
+  text-align: center;
+}
+
+.about-us .card-title{
+  font-size: 3rem;
+  color: #fd6262;
+}
+
+.col-left{
+  padding-right: 10rem ;
 }
 
 /* Bottone Altro */
