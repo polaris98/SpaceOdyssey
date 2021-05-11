@@ -1,3 +1,7 @@
+body{
+  background-color: #141416;
+}
+
 /* Video */
 
 .background-video {
@@ -91,11 +95,11 @@
   color: #fd6262 !important;
 }
 
-
 /* Animations */
 
 .fade-in-top {
-  animation: fade-in-top 1.2s ease-in-out both;
+  animation: fade-in-top 1s ease-in-out both;
+  animation-delay: 0.5s;
 }
 
 @keyframes fade-in-top {
@@ -111,8 +115,7 @@
 
 .fade-in {
   animation: fade-in 2.5s ease-in-out both;
-  opacity: 1;
-  animation-delay: 0.8s;
+  animation-delay: 1.3s;
 }
 
 @keyframes fade-in {

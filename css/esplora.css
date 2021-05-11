@@ -1,4 +1,5 @@
 body {
+  background-color: black;
   background-image: url("../img/background.jpg");
 }
 
@@ -28,18 +29,5 @@ h1 {
 .pianeti img {
   width: 80%;
   margin-left: 1rem;
-}
-
-.plutone img {
-  width: 90%;
-}
-
-.luna img {
-  width: 75%;
-  margin-left: 3rem;
-}
-
-.asteroide img {
-  width: 90%;
 }
 
