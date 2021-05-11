@@ -54,22 +54,23 @@
   margin: auto;
 }
 
-/* About us */
+/* Infos */
 
-.about-us {
+.info-card {
   margin: 12rem 2rem;
   background-color: #141416;
   padding: 5rem;
-  text-align: center;
+  display: flex;
+  justify-content: space-around;
 }
 
-.about-us h5{
+.info-card h5{
   font-size: 3rem !important;
   color: #fd6262 !important;
 }
 
-.col-left{
-  padding-right: 10rem ;
+.info-card p{
+  padding: 0rem 2rem;
 }
 
 /* Bottone Altro */
