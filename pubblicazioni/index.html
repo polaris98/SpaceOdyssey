@@ -89,206 +89,234 @@
       </div>
     </nav>
 
-    <!-- Login -->
-    <div
-      class="modal fade"
-      id="login"
-      tabindex="-1"
-      aria-labelledby="modalLogin"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalLogin">Accedi al tuo account</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close"
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <form id="login-form">
-              <div class="form-group">
-                <label for="username">Username</label>
-                <input type="email" class="form-control" id="username" />
-              </div>
-              <div class="form-group">
-                <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" />
-              </div>
-              <button id="submit" type="submit" class="btn btn-block">
-                Log in
+    <section class="fade-in-initial">
+
+      <!-- Login -->
+      <div
+        class="modal fade"
+        id="login"
+        tabindex="-1"
+        aria-labelledby="modalLogin"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalLogin">Accedi al tuo account</h5>
+              <button
+                type="button"
+                class="close"
+                data-dismiss="modal"
+                aria-label="Close"
+              >
+                <span aria-hidden="true">&times;</span>
               </button>
-              <p>
-                Non hai un account?
-                <a href="../registrazione/index.html">Registrati ora</a>
-              </p>
-            </form>
+            </div>
+            <div class="modal-body">
+              <form id="login-form">
+                <div class="form-group">
+                  <label for="username">Username</label>
+                  <input type="email" class="form-control" id="username" />
+                </div>
+                <div class="form-group">
+                  <label for="password">Password</label>
+                  <input type="password" class="form-control" id="password" />
+                </div>
+                <button id="submit" type="submit" class="btn btn-block">
+                  Log in
+                </button>
+                <p>
+                  Non hai un account?
+                  <a href="../registrazione/index.html">Registrati ora</a>
+                </p>
+              </form>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <!-- Introduzione -->
+      <!-- Introduzione -->
 
-    <div class="container container-introduzione">
-      <div class="row">
-        <h1 class="title">Scopri tutte le pubblicazioni</h1>
+      <div class="container container-introduzione">
+        <div class="row">
+          <h1 class="title">Scopri tutte le pubblicazioni</h1>
+        </div>
+        <div class="row">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Dropdown button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+          <form class="form-inline">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-primary btn-lg" role="button" type="submit">
+              Cerca
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="row">
-        <div class="dropdown">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
+
+      <!-- Pubblicazioni -->
+
+      <div class="card-deck">
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
           >
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Action</a>
-            <a class="dropdown-item" href="#">Another action</a>
-            <a class="dropdown-item" href="#">Something else here</a>
-          </div>
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
         </div>
-        <form class="form-inline">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-primary btn-lg" role="button" type="submit">
-            Cerca
-          </button>
-        </form>
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
       </div>
-    </div>
 
-    <!-- Pubblicazioni -->
-
-    <div class="card-deck">
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
+      <div class="card-deck">
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
+        <div class="card">
+          <a
+            class="stretched-link text-decoration-none"
+            href="../pubblicazioni/articolo/index.html"
+          >
+            <img class="card-img-top" src="../img/nasa.png" />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+              <footer class="text-muted">#PIANETI</footer>
+            </div>
+          </a>
+        </div>
       </div>
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-    </div>
-
-    <div class="card-deck">
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-      <div class="card">
-        <a class="stretched-link text-decoration-none" href="../pubblicazioni/articolo/index.html">
-          <img class="card-img-top" src="../img/nasa.png" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </p>
-            <footer class="text-muted">#PIANETI</footer>
-          </div>
-        </a>
-      </div>
-    </div>
+      
+    </section>
   </body>
 </html>
